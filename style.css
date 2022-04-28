@@ -1,3 +1,46 @@
 body {
     margin: 0px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greeder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.quote {
+    padding: 0px 450px;
+}
+
+.hire {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
