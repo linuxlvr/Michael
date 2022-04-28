@@ -4,15 +4,27 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.header-top {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.header-bot {
+    display: flex;
+    gap: 50px;
 }
 
 .greeder {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 150px 300px;
     gap: 50px;
 }
 
@@ -20,6 +32,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 45px;
+    margin-bottom: 175px;
 }
 
 .title {
@@ -33,14 +46,19 @@ body {
 
 .quote {
     padding: 0px 450px;
+    margin-bottom: 200px;
+    flex-wrap: nowrap;
 }
 
 .hire {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    margin-top: 75px;
 }
